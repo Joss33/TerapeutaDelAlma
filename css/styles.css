@@ -1,0 +1,75 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: #8A2387;
+  background: -webkit-linear-gradient(to right, #F68523, #F6321F, #6B4D88);
+  background: -webkit-gradient(linear, left top, right top, from(#F68523), color-stop(#F6321F), to(#6B4D88));
+  background: -webkit-linear-gradient(left, #F68523, #F6321F, #6B4D88);
+  background: -o-linear-gradient(left, #F68523, #F6321F, #6B4D88);
+  background: linear-gradient(to right, #F68523, #F6321F, #6B4D88);
+  color: white; }
+  .header__navegation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .header__logo h2 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px; }
+  .header__enlaces {
+    width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .header__enlaces ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .header__enlaces ul li {
+    list-style: none; }
+  .header__enlaces ul li a {
+    font-family: 'Oswald', sans-serif;
+    margin: 10px;
+    color: white;
+    text-decoration: none; }
+  .header__search {
+    width: 200px;
+    height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .header__search input {
+      color: cadetblue;
+      border: none;
+      border-radius: 2px; }
