@@ -2,74 +2,69 @@ body {
   padding: 0;
   margin: 0; }
 
-.header {
+.card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  background: #8A2387;
-  background: -webkit-linear-gradient(to right, #F68523, #F6321F, #6B4D88);
-  background: -webkit-gradient(linear, left top, right top, from(#F68523), color-stop(#F6321F), to(#6B4D88));
-  background: -webkit-linear-gradient(left, #F68523, #F6321F, #6B4D88);
-  background: -o-linear-gradient(left, #F68523, #F6321F, #6B4D88);
-  background: linear-gradient(to right, #F68523, #F6321F, #6B4D88);
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+  background: #5306C7;
   color: white; }
-  .header__navegation {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-  .header__logo h2 {
-    font-family: 'Yellowtail', cursive;
-    font-size: 30px; }
-  .header__enlaces {
-    width: 500px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .header__enlaces ul {
+  .card__Logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .header__enlaces ul li {
-    list-style: none; }
-  .header__enlaces ul li a {
-    font-family: 'Oswald', sans-serif;
-    margin: 10px;
-    color: white;
-    text-decoration: none; }
-  .header__search {
-    width: 200px;
-    height: 80px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-    .header__search input {
-      color: cadetblue;
-      border: none;
-      border-radius: 2px; }
+    text-align: center; }
+    .card__Logo .card__Description {
+      width: 250px; }
+    .card__Logo h1 {
+      font-family: "Yellowtail", cursive; }
+    .card__Logo p {
+      font-family: "Oswald", cursive; }
+  .card__Navegation {
+    margin-left: 10px;
+    -ms-flex-item-align: start;
+    align-self: flex-start; }
+    .card__Navegation ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding: 0;
+      margin: 0; }
+      .card__Navegation ul li {
+        list-style: none;
+        margin-bottom: 10px; }
+        .card__Navegation ul li a {
+          color: white;
+          text-decoration: none;
+          font-family: "Oswald", cursive; }
