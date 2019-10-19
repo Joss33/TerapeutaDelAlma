@@ -2,7 +2,22 @@ body {
   padding: 0;
   margin: 0; }
 
+.containerPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.container__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
 .card {
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,10 +31,12 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 300px;
-  height: 500px;
-  background: #5306C7;
-  color: white; }
+  width: 280px;
+  height: 450px;
+  background: #8105D8;
+  color: white;
+  margin-left: 120px;
+  border-radius: 1px; }
   .card__Logo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -31,18 +48,25 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-align: center; }
-    .card__Logo .card__Description {
-      width: 250px; }
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
     .card__Logo h1 {
-      font-family: "Yellowtail", cursive; }
+      font-family: "Yellowtail", cursive;
+      -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+      -ms-grid-column-align: center;
+      justify-self: center; }
+    .card__Logo .card__Description {
+      width: 250px;
+      margin-bottom: 40px;
+      margin-left: 10px; }
     .card__Logo p {
+      margin: 0;
       font-family: "Oswald", cursive; }
   .card__Navegation {
-    margin-left: 10px;
+    margin-left: 24px;
     -ms-flex-item-align: start;
     align-self: flex-start; }
     .card__Navegation ul {
@@ -63,8 +87,44 @@ body {
       margin: 0; }
       .card__Navegation ul li {
         list-style: none;
-        margin-bottom: 10px; }
+        margin-bottom: 20px; }
         .card__Navegation ul li a {
           color: white;
           text-decoration: none;
           font-family: "Oswald", cursive; }
+  .card__socialNetworks {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+    .card__socialNetworks i {
+      font-size: 22px;
+      cursor: pointer; }
+
+.aside {
+  width: 200px;
+  height: 500px;
+  border-radius: 1px;
+  position: relative;
+  top: 50px;
+  background: #ED0CEF; }
+
+.blog {
+  width: 600px;
+  margin-left: 450px;
+  margin-right: 20px; }
+  .blog__title {
+    font-family: "Oswald", cursive; }
+  .blog__content {
+    font-family: "Lato", cursive;
+    color: grey;
+    line-height: 1.5em; }
+  .blog__subTitle {
+    font-family: "Oswald", cursive; }
