@@ -1,24 +1,22 @@
-// Colors Page Start
-// --------------------------
-$color-primary : #8105D8;
-$color-secondary: #ED0CEF;
-$color-darken: #3B064D;
-$color-lithen:#FE59D7;
-// --------------------------
-// Colors Page End
+//  ██████╗ ██╗      ██████╗ ██████╗  █████╗ ██╗     ███████╗███████╗
+//  ██╔════╝ ██║     ██╔═══██╗██╔══██╗██╔══██╗██║     ██╔════╝██╔════╝
+//  ██║  ███╗██║     ██║   ██║██████╔╝███████║██║     █████╗  ███████╗
+//  ██║   ██║██║     ██║   ██║██╔══██╗██╔══██║██║     ██╔══╝  ╚════██║
+//  ╚██████╔╝███████╗╚██████╔╝██████╔╝██║  ██║███████╗███████╗███████║
+//   ╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
 
-// Tipographi Start
-// -------------------------
-$Fuente-logo: 'Yellowtail',
-cursive;
-$Fuente-description: 'Oswald',
-cursive;
-$Fuente-secondary: 'Lato',
-cursive;
-// -------------------------
-// Tipographi end
+// -----------------------------Colors Start
+$color-primary: #eea5f6;
+$color-secondary: #df42d1;
+$color-Dark: #0c093c;
+$color-light: #fad6d6;
+// -----------------------------Colors End
 
-body {
-  padding: 0;
-  margin: 0;
-}
+// -----------------------------Typo Start
+$Fuente-Logo:"Lobster",
+cursive;
+$Fuente1: "Oswald",
+sans-serif;
+$Fuente2: "Lato",
+sans-serif;
+// -----------------------------Typo End
